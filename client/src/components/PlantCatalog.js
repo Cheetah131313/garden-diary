@@ -42,7 +42,7 @@ function PlantCatalog() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/catalog/load")
+      .get("https://garden-diary.onrender.com/catalog/load")
       .then((response) => {
         console.log("Response data:", response.data);
         setPlants(response.data);
@@ -87,7 +87,7 @@ function PlantCatalog() {
   const handleAddPlantSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/plant/create", newPlant)
+      .post("https://garden-diary.onrender.com/plant/create", newPlant)
       .then((response) => {
         setPlants([...plants, response.data]);
         setShowAddModal(false);
