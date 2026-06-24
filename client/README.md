@@ -13,4 +13,8 @@ Frontendová část aplikace Garden Diary vytvořená v Reactu.
 ```bash
 npm install
 npm start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 13aadda7ed6c873db19cf7a1d2796ead155b02b9
