@@ -1,0 +1,68 @@
+/* plantCatalog.module.css */
+.blurredBackground {
+  filter: blur(5px);
+}
+
+.largeImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.searchInput {
+  border-radius: 0 4px 4px 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.button-toggle-view {
+  margin-left: 10px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.plantCard {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.listView .card-body {
+  display: flex;
+  align-items: center;
+}
+
+.listView .card-body > .col {
+  padding: 0;
+}
+
+.smallImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.addButton {
+  width: 100%;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
