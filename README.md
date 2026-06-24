@@ -2,6 +2,10 @@
 
 Webová aplikace pro správu zahrady a plánování pěstování rostlin.
 
+## Live Demo
+
+https://garden-diary-theta.vercel.app
+
 ## Funkce
 
 - katalog rostlin
