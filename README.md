@@ -6,6 +6,9 @@ Webová aplikace pro správu zahrady a plánování pěstování rostlin.
 
 https://garden-diary-theta.vercel.app
 
+**Poznámka:** Aplikace využívají bezplatný hosting Render. Při první návštěvě může spuštění backendu a navázání spojení s databází trvat přibližně **30–60 sekund**. Po načtení již aplikace funguje standardně.
+
+
 ## Funkce
 
 - katalog rostlin
